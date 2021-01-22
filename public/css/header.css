@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 30px solid #e86000;
+}
+
+header img{
+	width: 200px;
+    margin: 25% 0 1% 0;
+}
+
+@media(min-width: 720px){
+	header img{
+	    margin: 8% 0 1% 0;
+	}		
+}

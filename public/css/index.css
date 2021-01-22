@@ -1,0 +1,46 @@
+#index h1{
+	text-align: center;
+    color: #e86000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#index h1 span{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+@media(min-width: 720px){
+	#index h1{
+	    font-size: 40px;
+	}
+
+	#index h1 span{
+	    font-size: 30px;
+	}	
+}
+
+#index h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+    margin-left: 2%;
+    margin-right: 2%;	
+}
+
+#index div{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	/*margin-top: 40px;*/
+}
+
+#index div a{
+    margin: 2%;
+}
+
+#index div a img{
+    width: 50px;
+}

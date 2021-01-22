@@ -1,0 +1,48 @@
+.mpps{
+    display: none;
+    transition: 0.6s;
+}
+
+#mppBottomBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    background: linear-gradient(#F66F00, #F35B17);
+    width: 100vw;
+}
+
+.bottom-bar-icon{
+    width: 20px;
+    padding: 19px 30px 19px 30px;
+}
+
+.bottom-bar-icon-main{
+    width: 35px;
+    padding: 11px 30px 11px 30px;
+}
+
+.bottom-bar-icon-main:active, .bottom-bar-icon:active{
+
+    background-color: rgba(255,255,255,0.1);
+
+}
+
+.mppHide{
+    display: none;
+}
+
+.bottom-send-button{
+
+    width: 100%;
+    border: 0px;
+    position: fixed;
+    bottom: -21vh;
+    height: 7vh;
+    transition: 0.5s;
+    background-color: #f56a05;
+    color: #fff;
+
+}
+

@@ -1,0 +1,17 @@
+.mpps_top_bar{
+    background-color: #ececec;
+}
+
+.mpps_top_bar .logo-restaurante{
+    margin-right: 15%;
+}
+
+.mpps_top_bar .nome-restaurante{
+	color: #999;
+    font-size: 20px;
+}
+
+.mpps_top_bar .tipo-restaurante{
+	color: #bbb;
+    font-size: 12px;
+}

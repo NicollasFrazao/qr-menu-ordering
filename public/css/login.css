@@ -1,0 +1,93 @@
+#mpps_login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 12vh;
+    justify-content: space-around;
+    height: 76vh;
+}
+
+#mpps_login h1{
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+@media(min-width: 720px){
+    #mpps_login h1{
+        font-size: 22px;
+    }   
+}
+
+#mpps_login #logo{
+    width: 180px;
+}
+
+#mpps_login .gif{
+    width: 80%;
+}
+
+#mpps_login hr{
+    border: none;
+    border-top: 1px solid #cccccc;
+    width: 85%;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+#mpps_login a{
+    text-decoration: none;
+}
+
+#mpps_login a img{
+    width: 20px;
+}
+
+#mpps_login section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mpps_login .face-login{
+    background-color: #3359A6;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#mpps_login .face-login img{
+    margin-bottom: 3px;
+}
+
+#mpps_login .face-login p{
+    margin: 0;
+    margin-left: 15px;
+    width: 200px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#mpps_login .google-login{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mpps_login .google-login p{
+    margin: 0;
+    margin-left: 15px;
+    color: #333;
+    width: 200px;
+    font-size: 14px;
+    text-align: center;
+}

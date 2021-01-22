@@ -1,0 +1,212 @@
+*{
+    outline: none;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(#fff, #fff, #d9d9d9);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p, textarea, input, cite, time, a{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.padding{
+    padding: 0 5%;
+}
+
+.padding-top{
+    padding-top: 20px;
+}
+
+.padding-bottom{
+    padding-bottom: 20px;
+}
+
+.indicador-estilo{
+    color: #8f8f8f;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.background{
+    background: linear-gradient(#fff, #fff, #d9d9d9);
+}
+
+.bt{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    width: fit-content;
+}
+
+.yellow-red{
+    background: linear-gradient(#FEBF01, #F7A808);
+    color: #C64224;
+    font-weight: 900;
+}
+
+.gray-white{
+    background: linear-gradient(#BFBFBF, #A8A8A8);
+    color: #fff;
+    font-weight: 900;
+}
+
+.white-red{
+    background-color: #fff;
+    color: #C54025;
+    font-weight: 900;
+}
+
+.orange-white{
+    background: linear-gradient(#F56D01, #F35C15);
+    color: #fff;
+}
+
+.close-red{
+    background-color: #C54025;
+    color: #fff;
+    border-radius: 200px;
+    font-weight: 900;
+    min-width: 30px;
+    min-height: 30px;
+    border: none;
+}
+
+.checked-green{
+    background-color: #4d9642;
+    color: #fff;
+    border-radius: 200px;
+    font-weight: 900;
+    min-width: 30px;
+    min-height: 30px;
+    border: none;
+    text-align: center;
+
+}
+
+.add-gray{
+    background-color: #999;
+    color: #fff;
+    border-radius: 200px;
+    font-weight: 900;
+    min-width: 30px;
+    min-height: 30px;
+    border: none;
+}
+
+.remove-gray{
+    background-color: #ddd;
+    color: #fff;
+    border-radius: 200px;
+    font-weight: 900;
+    min-width: 30px;
+    min-height: 30px;
+    border: none;
+}
+
+.title-gray{
+    color: #A5A5A5;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.subtitle-gray{
+    color: #A5A5A5;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text-gray{
+    color: #A5A5A5;
+    font-weight: 300;
+    font-size: 1.2em;
+
+}
+
+.strong{
+    font-weight: 900;
+}
+
+.medium{
+    font-weight: 700;
+}
+
+.weak{
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.valor-produto{
+
+    width: 80px;
+    font-size: 1em;
+}
+
+.qt-sabores{
+    position: fixed;
+    background: #f56807;
+    width: 100vw;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    margin-top: -28px;
+  
+}
+
+

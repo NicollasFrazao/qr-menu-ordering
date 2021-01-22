@@ -1,0 +1,61 @@
+.mpp-input-search{
+    
+    width: 100%;
+    display: inline-block;
+    border: 0px;
+    padding: 1vh;
+    background-color: transparent;
+  
+}
+
+.toFix{
+    
+  /*position: fixed;*/
+  
+}
+
+.mpp-balloon{
+  
+  display: none;
+  background: rgb(230,192,0);
+  background: linear-gradient(0deg, rgba(230,192,0,1) 0%, rgba(253,212,45,1) 100%);
+  border-radius: 15px;
+  width: 200px;
+  left: 10px;
+  position: fixed;
+  bottom: 80px;
+  
+}
+
+.mpp-balloon:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid rgb(230,192,0);
+  bottom: -20px;
+  left: 8vw;
+}
+
+.mpp-close-balloon{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    border-radius: 50%;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #8f0202;
+    color: #fff;
+}
+
+.mpp-balloon p{
+  
+    display: flex;
+    color: #910606;
+    padding: 20px;
+    text-align: center;
+    
+}

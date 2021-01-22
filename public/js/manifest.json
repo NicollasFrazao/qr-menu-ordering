@@ -1,0 +1,26 @@
+{
+  "short_name": "App",
+  "name": "",
+  "icons": [
+    {
+      "src": "../image/app-favicon.svg",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "../image/app-favicon.svg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "../image/app-favicon.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://example.com/app",
+  "theme_color": "#ff7300ff",
+  "background_color": "#f66f00",
+  "display": "standalone",
+  "orientation":"portrait"
+}

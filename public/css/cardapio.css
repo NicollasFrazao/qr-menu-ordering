@@ -1,0 +1,20 @@
+.lista{
+	width: 100%;
+	overflow-x: auto;
+}
+
+.produto{
+	border-bottom: 1px solid rgba(200,200,200,0.1);
+}
+
+.nome-produto{
+	padding-left: 5%;
+}
+
+.produto div{
+	width: 80%;
+	justify-content: flex-start;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+

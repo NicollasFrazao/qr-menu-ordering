@@ -1,0 +1,9 @@
+*{
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mpp-admin-screen{
+  display: none;
+}
